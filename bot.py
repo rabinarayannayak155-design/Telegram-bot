@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import os
 
-BOT_TOKEN = os.getenv("8543515466:AAHywcVzST7Hx3gAhoOea4fVPKDPCs3rA9Q")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 YOUTUBE_LINK = "https://youtube.com/@ff_leaks_4_you?si=OCv14M5zRrqJbSJd"
 
