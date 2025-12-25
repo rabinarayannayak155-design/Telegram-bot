@@ -21,3 +21,4 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, auto_reply))
 
 print("Bot running...")
 app.run_polling()
+
